@@ -237,6 +237,24 @@ public final class Context {
         cairo_show_text(internalPointer, text)
     }
     
+    public func showCentered(text: String, x: Double, y: Double) {
+        var extents = cairo_text_extents_t()
+        cairo_text_extents (internalPointer, text, &extents);
+        let newX = x - (extents.width / 2 + extents.x_bearing);
+        let newY = y - (extents.height / 2 + extents.y_bearing);
+        cairo_move_to (internalPointer, newX, newY);
+        cairo_show_text (internalPointer, text);
+    }
+    
+    public func showRight(text: String, x: Double, y: Double) {
+        var extents = cairo_text_extents_t()
+        cairo_text_extents (internalPointer, text, &extents);
+        let newX = x - (extents.width + extents.x_bearing);
+        let newY = y - (extents.height + extents.y_bearing);
+        cairo_move_to (internalPointer, newX, newY);
+        cairo_show_text (internalPointer, text);
+    }
+    
     public func show(glyph: cairo_glyph_t) {
         
         var copy = glyph
