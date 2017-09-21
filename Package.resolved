@@ -21,10 +21,10 @@
       },
       {
         "package": "CFreeType",
-        "repositoryURL": "https://github.com/PureSwift/CFreeType.git",
+        "repositoryURL": "https://github.com/serhii-londar/CFreeType.git",
         "state": {
           "branch": "master",
-          "revision": "5d65c8825addca5f30ff2c16e8b7e6f61562f618",
+          "revision": "f5eecb67e9225f1881813831e6e9beacfb440d50",
           "version": null
         }
       }
