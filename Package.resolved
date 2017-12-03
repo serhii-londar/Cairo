@@ -6,7 +6,7 @@
         "repositoryURL": "https://github.com/PureSwift/CCairo.git",
         "state": {
           "branch": "master",
-          "revision": "9828dafe5d7d4df38cc81614416c52df1c707d7d",
+          "revision": "9470688642d8906dd29aa66850cbab13445e6590",
           "version": null
         }
       },
@@ -21,10 +21,10 @@
       },
       {
         "package": "CFreeType",
-        "repositoryURL": "https://github.com/serhii-londar/CFreeType.git",
+        "repositoryURL": "https://github.com/PureSwift/CFreeType.git",
         "state": {
           "branch": "master",
-          "revision": "f5eecb67e9225f1881813831e6e9beacfb440d50",
+          "revision": "079909dc68c13c700bb6bab3059ddf51f642b43a",
           "version": null
         }
       }
